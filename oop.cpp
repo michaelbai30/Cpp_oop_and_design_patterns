@@ -2,7 +2,6 @@
 using namespace std;
 
 class Student{
-    
     int grade;
     
     public:
@@ -25,7 +24,6 @@ class Student{
     
 };
 
-
 // inheritance
 // ND Student isa public Student
 class NDStudent : public Student{
@@ -40,9 +38,7 @@ void Student::do_work(){
 }
 
 int main() {
-    
     Student std1(100, "ND");
-    
     
     cout << std1.get_grade() << endl;
     cout << "setting grade" << endl;
@@ -50,15 +46,11 @@ int main() {
     cout << std1.get_grade() << endl;
     cout << std1.school << endl;
     std1.do_work();
-    
-    
+        
     NDStudent std2(100, "ND");
     
     std2.NDID = 123456789;
     cout << std2.NDID << endl;
     
-    
-    
-
     return 0;
 }
