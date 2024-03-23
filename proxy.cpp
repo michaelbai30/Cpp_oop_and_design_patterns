@@ -68,5 +68,5 @@ int main(){
     creditCard.makePayment(1000);
     creditCard.makePayment(30000);
     
-    return;
+    return 0;
 };
