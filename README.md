@@ -14,3 +14,6 @@ The purpose of the Singleton design pattern is to ensure that a class has only o
 
 Composite:
 The purpose of the Composite design pattern is to enable individual objects and compositions of objects to be treated uniformly by representing them in a tree structure. To implement it, define a component interface that both the leaf "node" and composite "nodes" classes will implement, ensuring that operations can be applied to both individual elements as well as their compositions. 
+
+Decorator: 
+The purpose of the Decorator design pattern is to attach new behaviors to objects dynamically by placing these objects inside special wrapper objects that implement these behaviors without actually altering the classes of the objects. To implement it, create a component interface that defines operations that can be altered, and have both concrete components and decorators implement this interface. Concrete decorators contain a reference to a component object and add their own behavior.
