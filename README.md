@@ -11,3 +11,6 @@ The purpose of the Proxy design pattern is to provide a substitute or placeholde
 
 Singleton:
 The purpose of the Singleton design pattern is to ensure that a class has only one instance and provides a global point of access to that instance, promoting controlled access and resource management. To implement it, make the class constructor private to prevent external instantiation, and introduce a static method that returns the unique instance of the class, creating this instance if it does not yet exist. Often, the copy constructor and assignment operator are explicitly prevented from being used (either made private or deleted) to ensure the class cannot be copied or assigned, maintaining a single instance throughout the application's lifecycle.
+
+Composite:
+The purpose of the Composite design pattern is to enable individual objects and compositions of objects to be treated uniformly by representing them in a tree structure. To implement it, define a component interface that both the leaf "node" and composite "nodes" classes will implement, ensuring that operations can be applied to both individual elements as well as their compositions. 
